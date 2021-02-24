@@ -22,6 +22,9 @@ export const HeroWrapper = styled.div`
   }
   @media screen and (max-width: 768px) {
     padding: 0;
+    .text {
+      font-size: 0.8rem;
+    }
   }
 `;
 
@@ -63,6 +66,9 @@ export const HeroColumnRight = styled.div`
       font-size: 1.7rem;
       margin-bottom: 20px;
       text-align: center;
+    }
+    p {
+      font-size: 1rem;
     }
   }
 `;
@@ -167,8 +173,7 @@ export const HeroButton = styled(Link)`
   }
   @media screen and (max-width: 1068px) {
     margin-left: 0px;
-    padding: 6px 12px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 `;
 
@@ -190,11 +195,11 @@ export const HeroCheckWrapper = styled.div`
     }
   }
   @media screen and (max-width: 1024px) {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     justify-content: center;
     img {
-      height: 15px !important;
-      width: 15px !important;
+      height: 14px !important;
+      width: 14px !important;
       margin-top: 3px;
     }
   }
@@ -203,6 +208,5 @@ export const HeroCheckWrapper = styled.div`
   }
   @media screen and (max-width: 543px) {
     height: auto;
-    flex-direction: column;
   }
 `;

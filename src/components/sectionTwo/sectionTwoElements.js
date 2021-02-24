@@ -6,6 +6,9 @@ export const SectionTwoContainer = styled.section`
 
   margin-top: 300px;
   font-family: "Niramit", sans-serif;
+  @media screen and (max-width: 1024px) {
+    margin-top: 200px;
+  }
   @media screen and (max-width: 823px) {
     margin-top: 150px;
   }

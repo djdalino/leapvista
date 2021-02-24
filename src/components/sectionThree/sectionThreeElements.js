@@ -66,7 +66,7 @@ export const SectionColumnRight = styled.div`
     align-items: center;
     justify-content: center;
     img {
-      width: 100%;
+      width: 80%;
     }
   }
 `;

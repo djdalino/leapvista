@@ -14,6 +14,14 @@ export const FooterContainer = styled.section`
     color: #aaaaaa;
     cursor: pointer;
   }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 0.8rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
 `;
 export const FooterWrapper = styled.div`
   width: 80%;
@@ -22,35 +30,56 @@ export const FooterWrapper = styled.div`
   margin: auto;
   display: flex;
   justify-content: space-between;
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 `;
 
 export const AllRights = styled.div`
-  padding: 1.1rem 0;
+  padding: 1rem 0;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    padding: 0.8rem 0;
+    p {
+      font-size: 0.8rem;
+    }
+  }
 `;
 export const Tracker = styled.div``;
 export const Support = styled.div``;
 export const Reach = styled.div``;
 export const SocialMedia = styled.div``;
-export const ShopifyLogo = styled.div``;
+export const ShopifyLogo = styled.div`
+  text-align: center;
+  img {
+    width: 100%;
+  }
+  @media screen and (max-width: 1024px) {
+    img {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    img {
+      width: 200px;
+    }
+  }
+`;
 export const FooterColumnRight = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding-left: 5rem;
   @media screen and (max-width: 1024px) {
-    margin-top: 1.1rem;
     padding-left: 0;
-    align-items: center;
     h3 {
       text-align: center;
     }
   }
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
   }
 `;
 export const FooterColumnLeft = styled.div`
@@ -70,6 +99,15 @@ const SocialMedias = css`
   font-size: 1.3rem;
   padding: 0.8rem;
   margin: 0px 0.3rem;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
 `;
 
 export const Facebook = styled(FaFacebookF)`
