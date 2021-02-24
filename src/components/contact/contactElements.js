@@ -28,6 +28,9 @@ const InputType = css`
   transition: all 0.3s ease-in-out;
   margin-bottom: 0.6rem;
   font-size: 1.1rem;
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+  }
 `;
 export const ContactForm = styled.form`
   display: flex;
@@ -57,6 +60,9 @@ export const ContactForm = styled.form`
     border-radius: 5px;
     margin-bottom: 0.9rem;
     font-size: 1.1rem;
+    @media screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
   }
   button {
     background: linear-gradient(to right, #9736a1, #552685);
@@ -67,5 +73,8 @@ export const ContactForm = styled.form`
     color: #ffffff;
     cursor: pointer;
     font-weight: 900;
+    @media screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
   }
 `;

@@ -23,7 +23,7 @@ export const HeroWrapper = styled.div`
   @media screen and (max-width: 768px) {
     padding: 0;
     .text {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
     }
   }
 `;
@@ -208,5 +208,10 @@ export const HeroCheckWrapper = styled.div`
   }
   @media screen and (max-width: 543px) {
     height: auto;
+    div {
+      img {
+        margin-top: 2px;
+      }
+    }
   }
 `;

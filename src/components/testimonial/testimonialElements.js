@@ -79,6 +79,9 @@ const ArrowButtons = css`
   &:hover {
     transform: scale(1.2);
   }
+  img {
+    height: 30px;
+  }
 `;
 export const PrevArrow = styled.div`
   ${ArrowButtons}
@@ -90,6 +93,9 @@ export const PrevArrow = styled.div`
   @media screen and (max-width: 768px) {
     left: 15px;
   }
+  @media screen and (max-width: 543px) {
+    left: 5px;
+  }
 `;
 export const NextArrow = styled.div`
   ${ArrowButtons}
@@ -100,5 +106,8 @@ export const NextArrow = styled.div`
   }
   @media screen and (max-width: 768px) {
     right: 15px;
+  }
+  @media screen and (max-width: 543px) {
+    right: 5px;
   }
 `;

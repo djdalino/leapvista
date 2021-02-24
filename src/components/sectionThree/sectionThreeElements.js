@@ -33,12 +33,12 @@ export const SectionColumnLeft = styled.div`
       font-family: "Niramit", sans-serif;
       font-size: 1.5rem;
       padding: 0 15px;
+      text-align: center;
     }
     p {
       padding: 0 15px;
+      text-align: center;
     }
-  }
-  @media screen and (max-width: 968px) {
     padding: 0;
     width: 100%;
     align-items: center;
