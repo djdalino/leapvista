@@ -47,6 +47,9 @@ export const SectionTwoWrapper = styled.div`
     p br {
       display: none;
     }
+    h1 br {
+      display: none;
+    }
   }
   @media screen and (max-width: 543px) {
     height: 100%;

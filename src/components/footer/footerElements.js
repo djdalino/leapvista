@@ -30,13 +30,13 @@ export const FooterWrapper = styled.div`
   margin: auto;
   display: flex;
   justify-content: space-between;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 414px) {
     flex-direction: column;
   }
 `;
 
 export const AllRights = styled.div`
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   text-align: center;
   @media screen and (max-width: 768px) {
     padding: 0.8rem 0;
@@ -48,13 +48,15 @@ export const AllRights = styled.div`
 export const Tracker = styled.div``;
 export const Support = styled.div``;
 export const Reach = styled.div``;
-export const SocialMedia = styled.div``;
+export const SocialMedia = styled.div`
+  width: 100%;
+`;
 export const ShopifyLogo = styled.div`
   text-align: center;
   align-self: center;
   margin-bottom: 1rem;
   img {
-    width: 100%;
+    width: 200px;
   }
   @media screen and (max-width: 1024px) {
     img {
@@ -63,7 +65,7 @@ export const ShopifyLogo = styled.div`
   }
   @media screen and (max-width: 768px) {
     img {
-      width: 200px;
+      width: 150px;
     }
   }
 `;
@@ -79,8 +81,10 @@ export const FooterColumnRight = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
-    flex-direction: column;
     text-align: center;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 414px) {
     margin-top: 1rem;
   }
 `;
@@ -107,8 +111,8 @@ const SocialMedias = css`
     padding: 0.3rem;
   }
   @media screen and (max-width: 768px) {
-    font-size: 0.8rem;
-    padding: 0.3rem;
+    font-size: 0.6rem;
+    padding: 0.1rem;
   }
 `;
 

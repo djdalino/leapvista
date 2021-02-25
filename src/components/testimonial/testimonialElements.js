@@ -10,7 +10,7 @@ export const TestimonialWrapper = styled.div`
   color: white;
   max-width: 1044px;
   margin: auto;
-  padding: 12rem 0;
+  padding: 9rem 0;
   position: relative;
   height: 100%;
   ul {

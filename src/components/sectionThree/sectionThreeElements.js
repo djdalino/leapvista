@@ -21,13 +21,13 @@ export const SectionThreeWrapper = styled.div`
 `;
 
 export const SectionColumnLeft = styled.div`
-  padding: 0 0 0 5rem;
+  padding: 0 0 0 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   p {
     margin-top: 15px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #777777;
   }
   h1 {

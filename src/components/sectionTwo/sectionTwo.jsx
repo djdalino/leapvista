@@ -20,13 +20,11 @@ const SectionTwo = () => {
         <div className="paragraphs">
           <p>
             Every Store owner wants more free cash to invest in their business.
-          </p>
-          <p>
+            <br />
             You can enjoy a lower PayPal reserve by uploading tracking info to
             improve your store's reputation - <br />
             but it's a headache of a process.
-          </p>
-          <p>
+            <br />
             Simply install Trackr to automatically sync your stor's tracking
             info with PayPal and start Freeing up <br />
             more cash to grow your Shopify store.
