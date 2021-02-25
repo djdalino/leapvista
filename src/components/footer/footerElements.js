@@ -76,13 +76,13 @@ export const FooterColumnRight = styled.div`
   padding-left: 5rem;
   @media screen and (max-width: 1024px) {
     padding-left: 0;
-    h3 {
-      text-align: center;
-    }
   }
   @media screen and (max-width: 768px) {
     text-align: center;
     flex-direction: column;
+    h3 {
+      text-align: center;
+    }
   }
   @media screen and (max-width: 414px) {
     margin-top: 1rem;
