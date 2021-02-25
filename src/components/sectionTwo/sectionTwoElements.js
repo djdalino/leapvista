@@ -21,7 +21,7 @@ export const SectionTwoWrapper = styled.div`
   margin: auto;
   color: #fff;
   background: #222222;
-  padding: 20px 0px;
+  padding: 60px 0px;
 
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@ export const SectionTwoWrapper = styled.div`
   flex-direction: column;
   text-align: center;
   h1 {
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 2.2rem;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
@@ -43,6 +43,9 @@ export const SectionTwoWrapper = styled.div`
     }
     .paragraphs {
       padding: 20px 15px;
+    }
+    p br {
+      display: none;
     }
   }
   @media screen and (max-width: 543px) {

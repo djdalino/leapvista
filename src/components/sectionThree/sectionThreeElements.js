@@ -2,11 +2,17 @@ import styled from "styled-components";
 
 export const SectionThreeContainer = styled.section`
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+    p br {
+      display: none;
+    }
+  }
 `;
 export const SectionThreeWrapper = styled.div`
   max-width: 1144px;
   margin: auto;
-  padding: 3rem 0;
+  padding: 60px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   @media screen and (max-width: 968px) {

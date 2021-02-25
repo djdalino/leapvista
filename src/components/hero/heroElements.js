@@ -25,6 +25,9 @@ export const HeroWrapper = styled.div`
     .text {
       font-size: 0.7rem;
     }
+    p br {
+      display: none;
+    }
   }
 `;
 

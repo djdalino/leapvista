@@ -51,6 +51,8 @@ export const Reach = styled.div``;
 export const SocialMedia = styled.div``;
 export const ShopifyLogo = styled.div`
   text-align: center;
+  align-self: center;
+  margin-bottom: 1rem;
   img {
     width: 100%;
   }
